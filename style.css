@@ -1,0 +1,102 @@
+body {
+  background: #4776e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 30px;
+  width: 60%;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 200;
+  font-size: 2em;
+}
+
+.fill {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin: 0;
+  margin-top: 2px;
+  color: #f53232;
+  font-size: 0.9em;
+  padding: 0;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+input[type="button"],
+input[type="submit"] {
+  width: 120px;
+  padding: 15px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-left: 0;
+}
+
+.jk,
+.hobi {
+  display: grid;
+  grid-template-columns: 1fr 20fr;
+  row-gap: 3px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+}
+
+option {
+  font-size: inherit;
+}
+
+.confirmation {
+  display: flex;
+  justify-content: end;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
